@@ -1,0 +1,84 @@
+﻿@font-face {
+    font-family: VCR;
+    src: url("fonts/VCR.ttf");
+}
+
+body {
+    background-image: url("images/background.gif");
+    background-size:cover;
+}
+
+p {
+    color:white;
+    font-family: VCR;
+    text-align: center;
+}
+
+label {
+    text-decoration: none;
+    color: black;
+    font-family: VCR;
+    text-align: center;
+}
+
+input {
+    background-color: black;
+    color: white;
+    font-family: VCR;
+    border: none;
+    border-radius: 15px;
+}
+
+table {
+    border:solid;
+    border-color: lightcyan;
+    background-color: black;
+    border-radius: 15px;
+    filter: opacity(85%);
+}
+
+button {
+    background-color:gray;
+    border: none;
+    border-radius:15px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-family: VCR;
+    text-align: center;
+}
+
+#spacing {
+    margin-top: 8%;
+    opacity: 0.0;
+}
+
+.topnav {
+    overflow: hidden;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left:0;
+    background-color: #333;
+}
+
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.topnav a.active {
+    background-color: #04AA6D;
+    color: white;
+}
